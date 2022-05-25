@@ -1,5 +1,5 @@
 // fetch api
-let res = fetch("https://restcountries.com/v3.1/all");
+let res = fetch("https://restcountries.com/v2/all");
 res.then((data)=>data.json()).catch((error)=> console.log(error))
 .then(function(countryData){
 
