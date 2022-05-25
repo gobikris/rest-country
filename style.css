@@ -1,0 +1,29 @@
+body{
+    background-color: lightblue;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.card-header{
+    font-family: 'Times New Roman', Times, serif;
+}
+.z{
+    transition: transform .3s;
+    margin: 0; 
+}
+.z:hover{
+    transform: scale(1.1);
+}
+.card-body,.card-footer{
+    background-color: rgb(239, 239, 239);
+    color: rgb(31, 28, 28);
+
+}
+
+
+
+
+ 
